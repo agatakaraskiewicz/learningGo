@@ -12,6 +12,11 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+
+	//.Println returns n (number of bytes in the printed msg) and err (error if any)
+	n, err := fmt.Println("Hi")
+	fmt.Println(n)
+	fmt.Println(err)
 }
 
 func foo() {
