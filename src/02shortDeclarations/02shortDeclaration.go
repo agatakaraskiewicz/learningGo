@@ -8,4 +8,5 @@ func shortDeclaration() int {
 	x = 23
 	fmt.Println(x)
 	return x
+
 }
