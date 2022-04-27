@@ -8,6 +8,9 @@ type ratto int
 //create a variable of the new type
 var wedel ratto
 
+// create another var with int type
+var blikle int
+
 func customTypeEx() {
 	//print the zero value
 	fmt.Println(wedel)
@@ -20,4 +23,10 @@ func customTypeEx() {
 
 	//print the current value
 	fmt.Println(wedel)
+
+	//give blikle int value of wedel
+	blikle = int(wedel)
+	fmt.Println(blikle)
+	fmt.Printf("%T\n", blikle)
+
 }
